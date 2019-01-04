@@ -27,6 +27,25 @@ abc…	Letters
 (.*)	Capture all
 (abc|def)	Matches abc or def
 ```
+### Regex metacharacters
+```
+'.' (dot) - Matches any single character except the newline character (\n).
+'*' (star) - Matches zero or more occurrence of the immediately preceding character.
+'<' - Matches the beginning of a word
+'>' - Matches the ending of a word
+'^' - Matches the beginning of a line
+'$' - Matches the end of a line
+'{m}' - Matches the exactly regex ‘m’
+'{m,}' - Matches the at least regex ‘m’
+'{m,n}' - Matches the preceding regex ‘m’ to ‘n’ times
+```
+### Regex metaclasses
+```
+'[:alnum:]' - Alphanumeric characters; same as [a-zA-Z0-9]
+'[:digit:]' - Digits; same as [0-9]
+'[:punct:]' - Punctuation characters
+
+```
 
 1. Match specific characters
 
