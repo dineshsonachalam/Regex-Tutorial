@@ -7,7 +7,7 @@ abc…	Letters
 \d	Any Digit
 \D	Any Non-digit character
 .	Any Character
-\.	Period
+\.	Period, Here \ is an escape character
 [abc]	Only a, b, or c
 [^abc]	Not a, b, nor c
 [a-z]	Characters a to z
